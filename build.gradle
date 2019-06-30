@@ -22,22 +22,12 @@ apply plugin: 'io.spring.dependency-management'
 sourceCompatibility = 1.8
 
 jar {
-    manifest{
-        attributes('Implementation-Version': 1.0,
-                'Main-Class': 'backend.MainKt')
-    }
-    baseName = project.name
+    baseName = 'UniverseProject'
     version = '0.1.0'
-
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
 repositories {
     mavenCentral()
-}
-
-sourceSets {
-    main.java.srcDirs += 'src/main/kotlin/'
 }
 
 dependencies {
@@ -46,9 +36,9 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.hibernate:hibernate-entitymanager:5.2.16.Final")
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8")
+    compile("org.postgresql:postgresql:42.2.5")
     compile("com.fasterxml.jackson.core:jackson-databind")
     compileOnly 'org.projectlombok:lombok:1.18.8'
-    runtimeOnly("com.microsoft.sqlserver:mssql-jdbc")
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
 
     compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
