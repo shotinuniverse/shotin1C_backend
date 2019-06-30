@@ -46,12 +46,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="shotin1C_backend" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -60,21 +55,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/models/directories/Nomenclatures.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/controllers/RestController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
+                <element signature="n#!!doc;n#nomenclaturesRepository#0;n#!!block;n#RestController#0" />
+                <element signature="e#1052#1065#0" />
+                <element signature="n#!!doc;n#getAllUsers#0;n#!!block;n#RestController#0" />
                 <element signature="n#!!doc;n#getAllUsers#0;n#!!block;n#RestController#0" />
                 <element signature="n#!!doc;n#getAllNomenclatures#0;n#!!block;n#RestController#0" />
                 <element signature="n#!!doc;n#getNomenclaturesRests#0;n#!!block;n#RestController#0" />
@@ -381,6 +370,14 @@
       <option name="presentableId" value="Default" />
       <updated>1560024489490</updated>
     </task>
+    <task id="LOCAL-00001" summary="ver. 1.0.1 with statement of nomenclatures rests">
+      <created>1561934606461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561934606461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -394,7 +391,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -405,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +416,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.16044776" />
+      <window_info active="true" anchor="right" id="Gradle" order="5" visible="true" weight="0.16044776" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -430,6 +426,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/shotin1C_backend" />
     </ignored-roots>
+    <MESSAGE value="ver. 1.0.1 with statement of nomenclatures rests" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver. 1.0.1 with statement of nomenclatures rests" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -524,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/models/directories/Nomenclatures.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/models/reports/NomenclaturesRests.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -558,11 +549,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/models/directories/Nomenclatures.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/backend/controllers/RestController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
+            <element signature="n#!!doc;n#nomenclaturesRepository#0;n#!!block;n#RestController#0" />
+            <element signature="e#1052#1065#0" />
+            <element signature="n#!!doc;n#getAllUsers#0;n#!!block;n#RestController#0" />
             <element signature="n#!!doc;n#getAllUsers#0;n#!!block;n#RestController#0" />
             <element signature="n#!!doc;n#getAllNomenclatures#0;n#!!block;n#RestController#0" />
             <element signature="n#!!doc;n#getNomenclaturesRests#0;n#!!block;n#RestController#0" />
