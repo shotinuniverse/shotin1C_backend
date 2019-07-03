@@ -1,13 +1,12 @@
 package backend.models.directories
 
+import com.fasterxml.jackson.annotation.JsonTypeId
 import lombok.AllArgsConstructor
 import lombok.Getter
 import lombok.Setter
 import lombok.ToString
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Table
+import org.springframework.context.annotation.Bean
+import javax.persistence.*
 
 @Setter
 @Getter

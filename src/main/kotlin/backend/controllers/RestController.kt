@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController
 import java.sql.Date
 
 @RestController
+@CrossOrigin(origins = ["http://localhost:3000", "http://192.168.0.1:3000", "http://192.168.0.2:3000",
+    "http://192.168.0.3:3000", "http://192.168.0.4:3000", "http://192.168.0.5:3000"])
 @RequestMapping("/api")
 class RestController {
     //region declaration_repositories
@@ -43,7 +45,7 @@ class RestController {
         path = ["/users"],
         produces = [MediaType.APPLICATION_JSON_VALUE]
     )
-    @ResponseBody
+    //@RequestMapping(value = ["/users"], method = [RequestMethod.GET], produces = [MediaType.APPLICATION_JSON_VALUE])
     fun getAllUsers(): List<Users>{
         return usersRepository.findAll()
     }
